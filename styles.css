@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#search-movies .form-group {
+  position: relative;
+}
+
+#movie-name {
+  font-size: 18px;
+}
+
+.btn-primary {
+  font-size: 18px;
+  height: 38px;
+}
+
+#movie-cards .card {
+  transition: transform 0.2s;
+}
+
+#movie-cards .card:hover {
+  transform: scale(1.05);
+}
+
+#movie-cards .card-body {
+  text-align: center;
+}
+
+#movie-cards .card-title {
+  font-size: 16px;
+  color: #343a40;
+}
+
+#movie-cards .badge {
+  font-size: 14px;
+}
